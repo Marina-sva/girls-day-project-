@@ -1,1 +1,157 @@
-<h2>Girls day</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls' Day</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&family=Manrope:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header class="header">
+    <img class="logo" src="logo.png">
+    <h1>Girls' Day</h1>
+</header>
+
+<main class="container">
+
+    <section class="intro">
+        <h2>Heute erstellen wir <span>deine eigene Website!</span></h2>
+
+        <div class="plan">
+            <h3>Tagesplan:</h3>
+
+            <ul>
+                <li><span class="color-details">01</span> - Strukturiere deine Website mit <b>HTML</b></li>
+                <li><span class="color-details">02</span>  - Gestalte deine Website mit <b>CSS</b></li>
+                <li><span class="color-details">03</span>  - Hole echte Daten mit einer <b>API</b></li>
+                <li><span class="color-details">04</span>  - Baue deine eigene <b>Website</b></li>
+                <li><span class="color-details">05</span>  - Pizza</li>
+                <li>???</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section class="section">
+
+        <div class="text">
+            <h2>01. HTML</h2>
+            <p>
+                HTML ist das Skelett deiner Website.
+                Es sagt dem Browser, welche Inhalte angezeigt werden sollen.
+
+            </p>
+        </div>
+
+        <pre class="code">
+&lt;h1&gt;Welcome to my site&lt;/h1&gt;
+&lt;p&gt;This is my first website&lt;/p&gt;
+
+&lt;img src="my-photo.jpg"&gt;
+
+&lt;a href="https://google.com"&gt;
+Visit Google
+&lt;/a&gt;
+</pre>
+
+    </section>
+
+
+    <section class="section reverse">
+
+<pre class="code">
+body {
+  background:#fff3f8;
+  font-family: "Plus Jakarta Sans";
+}
+
+.card {
+  padding:20px;
+  border-radius:20px;
+  color:#9720ab;
+}
+</pre>
+
+        <div class="text">
+            <h2>02. CSS</h2>
+            <p>
+                CSS fügt Farben, Abstände und Schriftarten hinzu, um deine Website schön zu gestalten.
+
+            </p>
+        </div>
+
+    </section>
+
+
+    <section class="section">
+
+        <div class="text">
+            <h2>03. API</h2>
+
+            <p>
+                APIs ermöglichen es deiner Website, mit anderen Servern zu kommunizieren,
+                 um echte Daten abzurufen.
+            </p>
+
+            <button class = 'button' onclick="loadPokemon()">Load Pikachu</button>
+
+        </div>
+
+        <div class="pokemon-card">
+
+            <img id="pokemon-img" src="" />
+
+            <h3 id="pokemon-name"></h3>
+            <p id="pokemon-type"></p>
+
+        </div>
+
+    </section>
+
+
+    <section class="workspace">
+
+        <h2>Dein Projekt</h2>
+
+        <div class="editor">
+
+<pre>
+&lt;div class="animal-card"&gt;
+  &lt;img src="placeholder.jpg"&gt;
+  &lt;h3&gt;Snow Leopard&lt;/h3&gt;
+  &lt;p&gt;Species: Uncia uncia&lt;/p&gt;
+&lt;/div&gt;
+</pre>
+
+        </div>
+
+        <div class="preview">
+
+            <div class="animal-card">
+
+                <img src="https://placekitten.com/300/200">
+
+                <h3>Snow Leopard</h3>
+                <p>Known as the ghost of the mountains</p>
+
+                <button class = 'button'>Learn More</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

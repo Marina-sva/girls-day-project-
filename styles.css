@@ -1,0 +1,188 @@
+body{
+    margin:0;
+    font-family:Manrope, sans-serif;
+    background:#fff3f8;
+    color:#45223f;
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+}
+
+.color-details{
+    color: #3a4669 !important;
+    font-size:25px;
+}
+
+/* header */
+
+.header{
+    text-align:center;
+    padding:40px 40px 0px 40px;
+}
+
+.logo{
+    width: 200px;
+    letter-spacing:3px;
+    color:#006571;
+}
+
+h1{
+    font-family:"Plus Jakarta Sans";
+    font-weight:800;
+    font-size:40px;
+    color:#9720ab;
+}
+
+h2{
+    color: #3a4669;
+}
+/* intro */
+
+.intro{
+    text-align:center;
+    padding:60px 20px;
+    color: #3a4669;
+}
+
+.intro h2{
+    font-size:48px;
+    font-family:"Plus Jakarta Sans";
+
+}
+
+.intro span{
+    color:#9720ab;
+}
+
+.plan{
+    background:#ffdff4;
+    padding:30px;
+    margin-top:40px;
+    max-width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:16px;
+}
+
+.plan ul{
+    list-style:none;
+    padding:0;
+}
+
+.plan li{
+    margin:12px 0;
+    font-size:18px;
+}
+
+/* sections */
+
+.section{
+    display:flex;
+    gap:60px;
+    padding:80px;
+    justify-content:center;
+}
+
+.section.reverse{
+    flex-direction:row-reverse;
+}
+
+.text{
+    width:550px;
+}
+
+.text h2{
+    font-family:"Plus Jakarta Sans";
+}
+
+.code{
+    background:black;
+    padding:30px 150px ;
+    border-radius:16px;
+    font-family:"Space Grotesk", monospace;
+    box-shadow:0 4px 20px rgba(0,0,0,0.08);
+    overflow-x:auto;
+    color: #c462f0;
+}
+
+/* pokemon */
+
+.button{
+    background:#3a4669;
+    color: white;
+    margin-top:10px;
+    border:none;
+    padding:10px 20px;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.pokemon-card{
+    background:white;
+    padding:30px 190px;
+    border-radius:20px;
+    text-align:center;
+    width:200px;
+}
+
+.pokemon-card img{
+    width:120px;
+}
+
+/* workspace */
+
+.workspace{
+    padding:80px;
+    text-align:center;
+}
+
+.editor{
+    background:#fff;
+    padding:30px;
+    margin:30px;
+    border-radius:20px;
+    font-family:"Space Grotesk";
+}
+
+.preview{
+    margin:30px;
+}
+
+.animal-card{
+    background:white;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+    max-width:280px;
+    margin:auto;
+}
+
+.animal-card img{
+    width:100%;
+    border-radius:16px;
+}
+
+
+
+@media (min-width:1600px) {
+
+    .section {
+        gap: 200px;
+        padding: 120px 0px;
+    }
+
+    .intro h2 {
+        font-size: 72px;
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+
+    .code {
+        font-size: 20px;
+    }
+
+}
